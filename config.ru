@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'vendor/rack/lib/rack.rb'
 require 'vendor/sinatra/lib/sinatra.rb'
 
 path = "/home/peterszinek/examples.scrubyt.org/current"
