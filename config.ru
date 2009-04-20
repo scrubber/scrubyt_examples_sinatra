@@ -8,7 +8,7 @@ Sinatra::Application.default_options.merge!(
 	:views => path + '/views',
 	:public => path + '/public',
   :run => false,
-  :env => :production
+  :env => :production,
 	:raise_errors => true
 )
 
