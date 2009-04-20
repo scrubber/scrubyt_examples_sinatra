@@ -3,7 +3,7 @@ load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 default_run_options[:pty] = true
 
 # be sure to change these
-set :user, 'hexagile'
+set :user, 'peterszinek'
 set :domain, 'examples.scrubyt.org'
 set :application, 'scrubyt-examples'
 
